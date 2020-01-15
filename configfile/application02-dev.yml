@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: UserProvider
+  datasource:
+    url: jdbc:mysql://db1:3306/jpa-0909-003?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 9002
+
+
+version: UserProvider02-update
